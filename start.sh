@@ -2,6 +2,8 @@
 
 wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
 nvm install node
+nvm install 18
+nvm use 18
 apt install npm
 
 export NVM_DIR="$HOME/.nvm"
