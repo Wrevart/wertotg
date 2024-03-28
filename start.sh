@@ -12,8 +12,8 @@ npm install axios
 npm install axios cheerio
 
 cd /root/wertotg/
-node /root/wertotg/peerskjnodes.js
-node /root/wertotg/peersnodejumper.js
+node peerskjnodes.js
+node peersnodejumper.js
 
 PEERS=$"(cat peers.txt)"
 sed -i 's|^persistent_peers =.|persistent_peers = "'$PEERS'"|' $HOME/.babylond/config/config.toml
