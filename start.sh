@@ -12,4 +12,5 @@ node peerskjnodes.js
 
 node peersnodejumper.js
 PEERS=$"(cat peers.txt)"
+sed -i 's|^persistent_peers =.|persistent_peers = "'$PEERS'"|' $HOME/.babylond/config/config.toml
 cd 
