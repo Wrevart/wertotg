@@ -19,6 +19,6 @@ npm install puppeteer
 node peerskjnodes.js
 node peersnodejumper.js
 
-PEERS=$(cat peers.txt)
+PEERS=$(cat peers.txt | sed 's/.*/"&"/')
 sed -i 's|^persistent_peers =.|persistent_peers = '$PEERS'|' $HOME/.babylond/config/config.toml
 cd 
