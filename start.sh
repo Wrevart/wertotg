@@ -11,8 +11,8 @@ export NVM_DIR="$HOME/.nvm"
 npm install axios
 npm install axios cheerio
 
+cd /root/wertotg/
 node /root/wertotg/peerskjnodes.js
-
 node /root/wertotg/peersnodejumper.js
 
 PEERS=$"(cat peers.txt)"
