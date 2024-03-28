@@ -14,6 +14,7 @@ const fs = require('fs');
 
     // Удаляем кавычки
     data = data.replace(/["']/g, '');
+    data = ',' + data;
 
     // Записываем данные в файл
     fs.appendFile('peers.txt', data + '\n', (err) => {
