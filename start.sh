@@ -8,10 +8,11 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
 
+cd /root/wertotg/
 npm install axios
 npm install axios cheerio
+npm install puppeteer
 
-cd /root/wertotg/
 node peerskjnodes.js
 node peersnodejumper.js
 
