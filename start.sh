@@ -1,7 +1,7 @@
 #!/bin/bash
 
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
-
+source ~/.bash_profile, source ~/.bashrc, source ~/.zshrc
 nvm install node
 nvm install 18
 nvm use 18
