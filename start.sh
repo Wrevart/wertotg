@@ -9,7 +9,7 @@ sudo apt-get install -y libgbm-dev libxshmfence-dev libnss3 libxrandr2 libasound
 nvm install node
 nvm install 18
 nvm use 18
-apt install npm
+apt install npm -y
 
 cd /root/wertotg/
 npm install axios
